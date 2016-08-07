@@ -1,0 +1,12 @@
+table
+  thead
+    tr
+      th Name
+      th Password
+      th ID
+  tbody
+    - each item in items
+      tr
+        td= item.name
+        td= item.password
+        td= item.id
